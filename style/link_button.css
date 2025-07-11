@@ -1,0 +1,64 @@
+.link {
+  position: absolute;
+  bottom: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  padding: 40px 40px;
+  border-radius: 15px;
+  z-index: 999;
+  background-color: black;
+}
+
+.link i{
+  font-size: 25px;
+}
+
+.git_icon{
+  color: rgb(255, 255, 255);
+}
+
+.twitter-icon {
+  color: rgb(29, 161, 242);
+}
+
+.linkedin-icon{
+  color: rgb(10, 102, 194);
+}
+
+.mail-icon{
+  color: rgb(234, 67, 53);
+}
+
+
+.git_icon:hover i {
+  color: black;
+  text-shadow: 0 0 8px white;
+}
+
+
+/* Hover Glow Effects */
+.git_icon:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.twitter-icon:hover {
+  color: #000000;
+  text-shadow: 0 0 8px #1DA1F2;
+  font-size: 40px;
+}
+
+.linkedin-icon:hover {
+  color: #000000;
+  text-shadow: 0 0 10px #0a66c2;
+  font-size: 40px;
+}
+
+.mail-icon:hover {
+  color: #000000;
+  text-shadow: 0 0 10px #ea4335;
+  font-size: 40px;
+}

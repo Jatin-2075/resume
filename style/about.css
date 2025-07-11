@@ -1,0 +1,76 @@
+#title_about{
+    position: relative;
+    font-size: 40px;
+    max-width: 1000px;
+    right: -15px;
+}
+#first_about{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+#second_about{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+#third_about{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+
+#title_about:hover{
+    color: rgb(0, 255, 85);
+    transition: all 0.5s ease-in-out;
+    font-style: oblique;
+}
+#first_about:hover{
+    color: rgb(117, 226, 253);
+    transition: all 0.4s ease-in-out;
+    font-style: italic;
+}
+#second_about:hover{
+    color: rgb(247, 254, 112);
+    transition: all 0.4s ease-in-out;
+    font-style: italic;
+}
+#third_about:hover{
+    color: rgb(237, 112, 251);
+    transition: all 0.4s ease-in-out;
+    font-style: italic;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_section{
+    justify-content: center;
+    right: -15%;
+}
+
+#first_about, #second_about, #third_about {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+#first_about {
+  animation-delay: 0s;
+}
+#second_about {
+  animation-delay: 0.5s;
+}
+#third_about {
+  animation-delay: 1s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

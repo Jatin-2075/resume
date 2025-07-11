@@ -1,0 +1,17 @@
+.name-about{
+  animation: nameanimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes nameanimation{
+    0%{
+        color: rgb(231, 113, 240);
+    }
+    50%{
+        color: rgb(141, 60, 216);
+    }
+    75%{
+        color: rgb(181, 4, 239);
+    }
+}

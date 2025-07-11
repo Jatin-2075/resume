@@ -1,0 +1,28 @@
+.download_button {
+  font-size: 20px;
+  position: absolute;
+  justify-content: center;
+  left: -20px;
+  display: inline-block;
+  padding: 22px 34px;
+  background-color: #c847ff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.download_button:hover {
+  background-color: #000000;
+  transform: scale(1.05); 
+  color: #b253ff; 
+  box-shadow: 0 10px 25px rgba(210, 96, 255, 0.25);
+}
+
+.para_port{
+  top: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
